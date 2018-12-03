@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-size: 10px;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h1:first-child{
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.img{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 30vh;
+    cursor: pointer;
+}
+
+.scisors{
+    background-image: url("./img/rock-paper-scissors-296853_1280.png");
+}
+
+.stone{
+    background-image: url("./img/rock-paper-scissors-296854_1280.png");
+}
+
+.paper{
+    background-image: url("./img/images (1).png");
+}
+
+.startGame{
+    font-size: 2rem;
+    border: 2px solid black;
+    background-color: white;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+button:focus{outline: 0}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+}
+
+.score h2{
+    margin: 1rem;
+}
+
+.score h1{
+    margin: 1rem;
+}
+
+.result {
+    width: 30%;
+}
+
